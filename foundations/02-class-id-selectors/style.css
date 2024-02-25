@@ -1,0 +1,23 @@
+.paragraph {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 180, 180);
+}
+
+.cool {
+    font-size: 24px;
+
+}
+
+#two {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: blue;
+    font-weight: bold;
+}
+
+#four {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(104, 235, 104);
+    font-weight: bold;
+}
