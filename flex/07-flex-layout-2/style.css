@@ -26,4 +26,70 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+}
+
+/* solution 
+ */
+
+ body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Allow sidebar to grow or shrink, but not basis */
+  padding: 16px;
+}
+
+.main {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.card {
+  /*flex: 1 1 300px; /* Allow cards to grow and shrink, with a preferred width of 300px */
+  max-width: 300px; /* max width*/
+  padding: 16px;
+  margin: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 900px;
+  font-size: 32px;
+  padding: 0 16px; /* moves text to the right */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
